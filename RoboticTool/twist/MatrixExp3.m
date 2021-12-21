@@ -1,5 +1,8 @@
+% author: shaohe du
+% email: dushaohe_hit@163.com
+%
+% so3mat = [w] * theta
 function [R] = MatrixExp3(so3mat)
-% input [w] * theta
 w = So3ToVec(so3mat);
 theta = norm(w);
 wx = so3mat / theta;

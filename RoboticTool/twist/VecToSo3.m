@@ -1,3 +1,6 @@
+% author: shaohe du
+% email: dushaohe_hit@163.com
+%
 function [so3mat] = VecToSo3(omg)
 w1 = omg(1);
 w2 = omg(2);
